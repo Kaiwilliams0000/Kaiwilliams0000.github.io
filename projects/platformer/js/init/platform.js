@@ -28,12 +28,7 @@
 
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
-        function createPlatform(x, y, scaleY, immovable)  {
-            var platform = game.platforms.create(x, y, 'platform');
-            platform.scale.setTo(scaleX || 1, scaleY || 1);
-            platform.body.immovable = immovable || true;
-            return platform;
-        }
+       
         /*
          * ground : here, we create a floor. Given the width of of the platform 
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
@@ -43,8 +38,9 @@
 
         // example:
         createPlatform(400, 460);           // normal platform
-        createPlatform(300, 200, 0.3)       // small horizontal platform (30% the normal width)
-        createPlatform(500, 500, 0.3, 10)   // tall vertical wall (30% the normal width and 10x the height)
+        
+        createPlatform(500, 490, .5, 15);   // tall vertical wall (30% the normal width and 15x the height)
+        createPlatform(300, 550, .)
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////

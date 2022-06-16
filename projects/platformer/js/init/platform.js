@@ -40,7 +40,8 @@
         createPlatform(400, 460);           // normal platform
         
         createPlatform(500, 490, .5, 15);   // tall vertical wall (30% the normal width and 15x the height)
-        createPlatform(300, 550, .)
+        createPlatform(300, 580, .2, 1);
+        createPlatform(0, 550, 2, .5)
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////

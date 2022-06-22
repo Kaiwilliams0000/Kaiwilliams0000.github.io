@@ -6,14 +6,14 @@
 	<script src="jquery.min.js"></script>
 	<style>
 		.box {
-			width: 70px;
-			height: 70px;
+			width: 200px;
+			height: 300px;
 			background-color: teal;
 			font-size: 300%;
 			text-align: center;
 			display: block;
 			position: absolute;
-			top: 100px;
+			top: 400px;
 			left: 0px;  /* <--- Change me! */
 		}
 		.board{
@@ -62,17 +62,20 @@
 			
 			// TODO 2 - Variable declarations 
 			
-
+			function update(moveBoxTo) {
+				/* Your Code to Increase positionX by 10 HERE*/
 			
+		}
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			function update() {
-				
-
+			function update(movingBoxTo) {
+				  movingBoxTo()
+				  
 			};
+			
 
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
